@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/delivery.css">
+</head>
+
+<body>
+    <form action="/delivery" method="post">
+        <div class="grid">
+            <div class="grid-item">
+                <div class="card">
+                    <img src="./pic/fruits.jpg" class="card-img" alt="Fruits">
+                    <div class="card-content">
+                        <h1 class="rome">Fruits</h1>
+                        <p class="card-text">
+                            We provide you only those dealers who sell fresh fruits at market price.Please press the below button to see the contact-details of those dealer
+                        </p>
+                        <button class="btn" type="submit" name="fru">Click Me
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="./pic/vegetables.jpg" class="card-img" alt="Vegetables">
+                    <div class="card-content">
+                        <h1 class="card-header">Vegetables</h1>
+                        <p class="card-text">
+                           We provide you only those dealers who sell fresh vegetabless at market price.Please press the below button to see the contact-details of those dealer
+                        </p>
+                        <button class="btn" type="submit" name="veg">
+                            Click Me
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <img src="./pic/beverage.jpg" class="card-img" alt="Beverages">
+                    <div class="card-content">
+                        <h1 class="rome">Beverages</h1>
+                        <p class="card-text">
+                            We provide you only those dealers who sell beverages which are spoilt at market price.Please press the below button to see the contact-details of those dealer
+                        </p>
+                        <button class="btn" type="submit" name="bev">Click Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label>
+            <h1>To avail the services</h1>&nbsp;<select name="select" id="choice" required>
+                <option disabled selected>Enter Location</option>
+                <option value="Hutton Road">Hutton Road</option>
+                <option value="S.B Gorai Road">SB Gorai Road</option>
+                <option value="G.T Road">GT Road</option>
+                <option value="Asansol">Asansol</option>
+            </select>
+        </label>
+
+    </form>
+</body>
+
+</html>

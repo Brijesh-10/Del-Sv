@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        body{
+            background-image: radial-gradient(circle,rgb(213, 121, 29),rgb(51, 105, 214),rgb(169, 34, 135),rgb(217, 87, 217));
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 1500px;
+            /* background-position: absolute; */
+        }
+        .block{
+            box-sizing:border-box;
+            margin:0px 0px;
+            padding:0px 0px; 
+        }
+    
+    .container{
+        background-color:black;
+        border-radius: 35px;
+        border:2px solid black;
+        box-shadow: 0px;
+        
+
+    }
+    .container ul li img{
+        width: 30px;
+        height:30px;
+        filter: invert(100%);
+        padding: 1px 4px;
+        display:inline-block;
+        
+    }
+      .container ul li{
+        
+        display:flex;
+            display:inline-block;
+            /* top:56px; */
+            padding: 1px 30px;
+            text-align: top;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            
+            /* letter-spacing: 1px; */
+        
+        }
+        .container ul li a{
+            color:white;
+            text-decoration: none;
+            cursor:progress;
+        }
+        .block{
+           
+            background-image: linear-gradient(70deg,red,rgb(158, 108, 108),purple);
+            width:100%;
+            height:33%;
+            padding-left: 4px;
+
+        }
+        .block .intro{
+            
+            display: inline-block;
+            width:50%;
+            padding:32px,32px;
+            color:rgb(14, 52, 114);
+        }
+        .left{
+           
+            display: inline-block;
+            width:50%;
+        }
+        .right{
+            float:right;
+            display: inline-block;
+            margin:36px 8px;
+            align-items: right;
+            width:34%
+           
+        }
+        .right img{
+            width: 379px;
+            height: 322px;
+        }
+        
+        .ad{
+            margin:19px 8px;
+            padding: 12px 35px;
+        }
+        .ad .a h1,.ad .b h1 {
+            text-align: center;
+            color:rgb(12, 42, 63)
+        }
+        .imgs1, .imgs2{
+            display: inline-block;
+            width:32%;
+            
+        }
+        img{
+            width:77%;
+            height:58%;
+        }
+        .btn{
+            margin:15px 198px;;
+            position: flex;
+            padding:18px 126px;
+            /* padding-bottom: 2px; */
+            background-color: rgb(30, 109, 177);
+            border:2px solid rgb(178, 59, 78);
+            border-radius:12px;
+            font-size: larger;
+            text-decoration: none;
+
+        }
+        .btn:hover{
+            background-color: rgb(229, 135, 58);
+           
+        }
+        .need{
+            padding-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+    <header>
+        <nav class="navbar">
+            <div class="container">
+<ul>
+    <li><img src="pic/logo.jpg" alt=""></li>
+    <li><a href="services">Service</a></li>
+    <li><a href="delivery">Delivery</a></li>
+    <li><a href="#">About us</a></li>
+     
+</ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="intro">
+    <h1>Are U Looking for Us!</h1>
+    <h2>Save your time and money, and get your needs and solution of your domestic problems just by making ordering from your home</h2>
+    <div><h2>Add services here</h2>
+    <a href="shp-details" name="service" class="btn">Add Service</a>
+    </div>
+    <div class="need"><h2>Select Your Need</h2>
+    <a href="services-delivery-opt" name="choice" class="btn">Delivery/Service</a>
+    </div>
+</div>
+<div class="right">
+<img src="pic/title.jpg">
+</div>
+</div>
+<div class="ad">
+<div class="a"><h1>Services</h1>
+    <div class="imgs1" id="i">
+   <img src="pic/home-ele.jpg"  alt="image not loaded">
+   <h3>Electrician</h3>
+</div>
+<div class="imgs1" id="ii">
+    <img src="pic/home-plum.jpg"  alt="image not loaded"><h3>Plumber</h3>
+</div>
+<div class="imgs1" id="iii">
+    <img src="pic/home-mech.jpg"  alt="image not loaded"><h3>Technician</h3>
+</div>
+</div>
+<div class="b"><h1>Delivery</h1>
+    <div class="imgs2" id="o">
+    <img src="pic/home-fru.jpg"  alt="image not loaded"><h3>Fruits</h3>
+</div>
+   <div class="imgs2" id="o1">
+    <img src="pic/home-veg.jpg"  alt="image not loaded"><h3>Vegetables</h3>
+</div>
+   <div class="imgs2" id="o2">
+    <img src="pic/home-bev.jpg"  alt="image not loaded"><h3>Beverage</h3>
+</div>
+</div>
+</div>
+</body>
+</html>

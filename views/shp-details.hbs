@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="./css/shp-details.css">
+    <script src="./js/chk-phn.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box">
+                <div class="card-front">
+                    <h1>Detail's</h1>
+                    <form action="/shp-details" method="post">
+                        <input type="text" id="name"  name="sname"placeholder="Your Name" required>
+                        <input type="email" id="email-id" name="email" placeholder="Email-Address" required>
+                        <input type="number" id="mob" name="mno"  onblur="chkphn()" placeholder="Mobile-number" required>
+                        <select name="select" class="location" required>
+                            <option disabled selected>Location</option>
+                            <option value="Hutton Road">
+                                Hutton Road
+                            </option>
+                            <option value="S.B Gorai Road">
+                                S.B Gorai Road
+                            </option>
+                            <option value="G.T Road">
+                                G.T Road
+                            </option>
+                            <option value="Asansol">
+                                Asansol
+                            </option>
+                        </select>
+                        <select name="services"  class="Type" required>
+                            <option disabled selected>Service/Delivery</option>
+                            <option value="Plumber">
+                                Plumber
+                            </option>
+                            <option value="Electrician">
+                                Electrician
+                            </option>
+                            <option value="Technician">
+                                Technician
+                            </option>
+                            <option value="Fruits">
+                                Fruits
+                            </option>
+                            <option value="Vegetables">
+                                Vegetables
+                            </option>
+                            <option value="beverage">
+                                Beverage
+                            </option>
+                        </select>
+                        <button type="submit" class="submit-detail">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
